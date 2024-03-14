@@ -1,0 +1,141 @@
+.contenedor{
+    position: relative;
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 0rem;
+    height:25rem;
+}
+.contenedor .caja-imagen{
+    position: absolute;
+    right: 76.9%;
+    width: 23%;
+    height: 100%;
+}
+img{
+    object-fit: cover;
+}
+
+.caja-imagen .img-1{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+}
+.caja-imagen .img-1 .imagen-1{
+    width: 100%;
+    height: 100%;
+}
+.caja-imagen .img1 .imagen-1{
+    width: 100%;
+    height: 100%;
+}
+.contenedor .caja-imagen2{
+    position: absolute;
+    right: 51.9%;
+    width: 23%;
+    height: 100%;
+}
+.caja-imagen2 .img2{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+}
+.img2 .imagen-2{
+    width: 100%;
+    height: 100%;
+}
+.contenedor .caja-imagen3{
+     position: absolute;
+     right: 26.9%;
+     width: 23%;
+     height: 100%;
+ }
+ .caja-imagen3 .img3{
+     position: absolute;
+     height:60%;
+     width: 100%;
+ }
+ .img3 .imagen-3{
+     width: 100%;
+     height: 100%;
+ }
+ .contenedor .caja-imagen4{
+     position: absolute;
+     right: 1.9%;
+     width: 23%;
+     height: 100%;
+ }
+ .caja-imagen4 .img4{
+     position: absolute;
+     height: 60%;
+     width: 100%;
+ }
+ .img4 .imagen-4{
+     width: 100%;
+     height: 100%;
+}
+#texto{
+    text-align: center;
+    font-weight: bold;
+    font-family:fuente-negrita;
+    margin-top: 20px;
+    font-size: 24px;
+}
+p{
+    font-family: fuenteboton;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@font-face {
+    font-family: 'fuenteboton';
+    src: url("/estilos/Montserrat/Montserrat-Medium.ttf") format('truetype');
+}
+
+.boton1{
+    position: absolute;
+    border: 0;
+    border-radius: 1rem;
+    background-image: -moz-linear-gradient(150deg, #9500ff,);
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 0.5px 0.5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.boton1 span{
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #1f1e1d;
+    padding: 10px 15px;
+    width: 100%;
+    transition: .3s;
+}
+.boton1:hover span{
+    background: none;
+}
+.boton1 :active{
+    transform: scale(0.12);
+}
+.uno-dos-tres {
+    margin-top: 1rem;
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: 3rem;
+}
+.uno-dos-tres .boton{
+    margin-left: 1rem;
+    right: 0;
+    background-color: black;
+    border-radius: 25rem;
+    color: wheat;
+    font-size: 20px;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+

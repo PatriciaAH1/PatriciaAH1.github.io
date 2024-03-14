@@ -1,0 +1,95 @@
+p{
+    font-family: 'Roboto';
+}
+
+.titulo h1{
+    text-align: center;
+}
+.contenido-principal{
+    height: 30%;
+    position: relative;
+    margin-bottom: 15rem; /*ver el que */
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.contenido{
+    position:relative;
+    height: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+}
+.contenido .imagen-curso{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.imagen-curso .tamanio-img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+.contenido .parrafo-falsificaciones{
+    position: absolute;
+    right: 0; 
+    top:0;
+    width: 50%;
+    height: 100%; 
+    padding: 1rem;
+}
+
+.contenido2 .parrafo-disenio{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+ .boton{
+    background-color: rgb(167, 163, 160);
+    position: absolute;
+    border-radius: 5rem;
+    border-style: none;
+    font-weight: bold;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    right: 0;
+    font-family: fuente-negrita;
+}
+
+h2{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+h5{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+p{
+    margin-top: 10px;
+}
+.contenido2{
+    position: relative;
+    height: 15rem;
+    margin-top: 2rem;
+} 
+
+.contenido2 .img-disenio{
+    background-color: rgb(204, 31, 190);
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    right: 0;
+}
+.img-disenio img{
+    width: 100%;
+    height: 100%;
+}    
+
+
+

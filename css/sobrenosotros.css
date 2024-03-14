@@ -1,0 +1,101 @@
+.contenido{
+    position: relative;
+    height:  25rem;
+    margin: 2rem;
+    margin-bottom: 8rem;
+   /* padding: 1rem -5rem 0rem 0rem;*/
+}
+.contenido .fotografia{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+}
+.fotografia img{
+    width: 100%;
+    height: 100%; 
+}
+.contenido .caja-descripcion{
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    right: 0; 
+}
+.caja-descripcion h2{
+    font-family:  Comfortaa;
+    margin-top: 0.8rem;
+}
+.caja-descripcion .caja-logos{
+    position: absolute;
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 12%;
+}
+.caja-logos{
+    overflow: hidden;
+}
+
+.caja-logos .logo-texto span{
+    color: darkorange;
+}
+.caja-logos .logo-texto {
+    font-family: Comfortaa;
+    font-weight: bold;
+    margin-top: 12px;
+    position: absolute;
+    font-size: 25px;
+}
+.caja-logos .logo-imagen{
+    width: 55px;
+    height: 40px;
+
+}
+
+.caja-descripcion  .caja-texto{
+    position: absolute;
+    margin-top:3.6rem;
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+}
+.caja-texto #texto1{
+    font-weight: bold; /*Texto en Negrita*/
+    font-style: italic;/*Texto Cursiva*/
+    box-sizing: border-box;
+    overflow: auto;
+}
+.caja-descripcion  .caja-texto2{
+    position: absolute;
+    margin-top: 10rem;
+    width: 100%;
+    height: 38%;
+    overflow: hidden;
+}
+
+.contenido .caja-descripcion #texto2 {
+    font-family: 'Comfortaa', sans-serif; /* Aplica la fuente Comfortaa al cuerpo del documento */
+    font-size: 1rem;/*Se sale el texto*/ 
+}
+.caja-descripcion .caja-imagen{
+    margin-top: 55rem;
+   position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.caja-descripcion .img{
+    display: flex;
+    display: inline-flex;
+    margin-top:20rem;
+    width: 2rem;
+    height: 2rem;
+}
+/*marging se ajusta el tamaño*/
+/*padding  se muesve sin cambiar el tamaño*/
+@font-face {
+    font-family: 'Comfortaa';
+    src: url("/estilos/Montserrat/Comfortaa-Medium.ttf") format('truetype'); /* Ajusta la ruta y el formato según tus archivos */
+    /* Agregar FUENTE*/
+}
+
+
+

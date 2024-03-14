@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="stylesheet" href="/css/Generalestilos.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <!-- ENCABEZADO DE LA PAGINA -->
+    <header>
+        <!-- CABECERA CON LOGOTIPO Y MENU-->
+        <div class="cabecera">
+            <!-- LOGOTIPOEMPRESA -->
+            <div class="logo">
+                <img class="logo-imagen" src="/imagenes/Logo.png" alt="Logo de la Empresa">
+                <span class="logo-texto">ALL<span>SHOES</span></span>
+            </div>
+            <!-- MENU-->
+            <div class="contenedor-menu"> 
+                <ul class="menu">
+                    <!-- ELEMENTOS DEL MENU -->
+                    <li class="menu-item"><a href="/index.html">INICIO</a></li>
+                    <li class="menu-item subclase"><a href="/html/sobrenosotros.html">SOBRE NOSOTROS</a></li>
+                    <li class="menu-item"><a href="/html/cursos.html">CURSOS</a></li>
+                    <li class="menu-item"><a href="/html/tienda.html">TIENDA</a></li>
+                    <li class="menu-item"><a href="/html/contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- TITULO DE LA SECCION -->
+        <section>
+            <div class="titulo">
+                <h1>CONTACTO</h1>
+            </div>
+        </section>
+
+        <!-- SECCION DE CONTENEDORES -->
+        <section>
+            <!-- CONTENEDOR 1 -->
+            <article class="contenedores">
+                <!-- PRIMER CONTENIDO -->
+                <div class="contenedor1">
+                    <!-- PARRAFO INFORMATIVO -->
+                    <div class="parrafo">
+                        <h2>¿TIENES ALGUNA DUDA?</h2>
+                        <p class="subcabecera">PLorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ratione? Doloremque doloribus enim unde dolor, expedita maiores labore cupiditate, quaerat cumque corrupti fugiat aspernatur reprehenderit facilis obcaecati culpa esse recusandae!</p>
+                        <p class="negrita">E-mail</p>
+                        <p>info@allshoes.es</p>
+                    </div>
+                    <!-- REDES SOCIALES -->
+                    <div class="redes">
+                        <p class="negrita">Redes sociales:</p>
+                        <img class="icono telegram" src="/imagenes/telegram-icon.png" alt="">
+                        <img class="icono whatsapp" src="/imagenes/whatsapp-logo (1).png" alt="">
+                        <img class="icono twitter" src="/imagenes/twitter-icon.png" alt="">
+                        <img class="icono instagram" src="/imagenes/instagram-logo.png" alt="">
+                        <img class="icono facebook" src="/imagenes/facebook-icon.png" alt="">
+                        <img class="logo-redes" src="/imagenes/Logo.png" alt="">
+                    </div>
+                </div>
+                
+                <!-- CONTENEDOR 2 -->
+                <div class="contenedor2">
+                    <!-- FORMULARIO DE CONTACTO -->
+                    <form class="registro">
+                        <input class="controls" type="text" name="nombre" id="nombre" placeholder="NOMBRE" required pattern="[a-zA-Z]+" >
+                        <input class="controls" type="text" name="correo" id="correo" placeholder="CORREO (CORREO@EMAIL.COM)" required pattern="[0-9a-zA-Z]+@[0-9a-zA-Z]+\.(com|es)">
+                        <input class="controls" type="text" name="telefono" placeholder="TELEFONO (+34 XXXXXXXXX)" required pattern="\+34[0-9]{9}">
+                        <select class="controls" name="topic" id="">
+                            <option value="" disabled selected>TEMA</option>
+                            <option value="">Opcion 1</option>
+                            <option value="">Opcion 2</option>
+                        </select>
+                        <textarea class="mensaje" name="message" placeholder="MENSAJE" required></textarea>
+                        <div class="condiciones">
+                            <input type="checkbox" id="conditions" name="conditions">
+                            <label for="conditions">ACEPTAR <a href="" target="_blank" required>condiciones</a></label>
+                        </div>
+                        <input class="enviar" type="submit"></input>
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

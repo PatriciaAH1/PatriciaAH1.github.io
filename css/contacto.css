@@ -1,0 +1,159 @@
+.contenedores{
+    position: relative;
+    height: 35rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.contenedores .contenedor1{
+    position: absolute;
+    height: 35rem;
+    width: 50%;
+}
+
+.contenedores .contenedor2{
+    display: flex;
+    position: absolute;
+    right: 0;
+    height: 35rem;
+    width: 50%;
+}
+
+.mensaje{
+    width: 100%;
+    height: 7rem;
+    resize: none;
+}
+
+.contenedores .contenedor1 .parrafo{
+    position: absolute;
+    padding: 1rem;
+    height: 50%;
+    width: 100%;
+}
+p {
+    font-family: comfortaa;
+}
+.parrafo h2{
+    font-family: fuente-negrita;
+}
+.negrita{
+    font-family: fuente-negrita;
+}
+.contenedor1 .redes{
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+}
+
+.parrafo .subcabecera{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.negrita{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.redes .icono{
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+}
+
+.redes{
+    position: absolute;
+    display: flex;
+    align-items:flex-end;/*ajusta los elementos abajo */
+    justify-content:center;/* alinea el contenido */
+}
+
+.redes .logo-redes{
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+.redes .icono{
+    position: absolute;
+    margin-bottom: 10rem;
+}
+
+.redes .telegram{
+    margin-right: 16rem;
+    margin-bottom: 6rem;
+}
+
+.redes .whatsapp{
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+}
+
+.redes .instagram{
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+}
+
+.redes .facebook{
+    margin-left: 16rem;
+    margin-bottom: 6rem;
+}
+
+.redes .twitter{
+    margin-bottom: 12rem;
+}
+
+.redes p{
+    position: absolute;
+    left: 0;
+    top:0;
+    margin-left: 1rem;
+}
+/* form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    display: block;
+} */
+.registro{
+    width: 400px;
+    padding: 10px 15px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'califri';
+    font-weight: bold;
+    border: none;
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;/*distancia de cajas*/
+    font-size: 18px; 
+}
+.registro a:hover{
+    /* color: black; */
+    text-decoration: underline;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    outline: none;
+}
+.enviar{
+    background-color: black;
+    position: absolute;
+    right: 0;
+    color: white;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}

@@ -61,11 +61,12 @@
     font-weight: bold; /*Texto en Negrita*/
     font-style: italic;/*Texto Cursiva*/
     box-sizing: border-box;
+    font-size: 18px;
     overflow: auto;
 }
 .caja-descripcion  .caja-texto2{
     position: absolute;
-    margin-top: 10rem;
+    margin-top: 9rem;
     width: 100%;
     height: 38%;
     overflow: hidden;
@@ -86,7 +87,7 @@
     display: flex;
     display: inline-flex;
     margin-top:20rem;
-    width: 2rem;
+    width: 3rem;
     height: 2rem;
 }
 /*marging se ajusta el tamaño*/

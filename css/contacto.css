@@ -1,12 +1,12 @@
 .contenedores{
     position: relative;
-    height: 35rem;
+    height: 20rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 .contenedores .contenedor1{
     position: absolute;
-    height: 35rem;
+    height: 30rem;
     width: 50%;
 }
 
@@ -14,7 +14,7 @@
     display: flex;
     position: absolute;
     right: 0;
-    height: 35rem;
+    height: 10rem;
     width: 50%;
 }
 
@@ -64,6 +64,7 @@ p {
     width: 3rem;
 }
 
+
 .redes{
     position: absolute;
     display: flex;
@@ -91,6 +92,10 @@ p {
     margin-right: 10rem;
     margin-bottom: 10rem;
 }
+a {
+    display: flex;
+    justify-content: center;
+}
 
 .redes .instagram{
     margin-left: 10rem;
@@ -112,6 +117,7 @@ p {
     top:0;
     margin-left: 1rem;
 }
+
 /* form{
     margin-top: 1rem;
     display: flex;
@@ -123,12 +129,35 @@ p {
     width: 400px;
     padding: 10px 15px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10px;
     border-radius: 4px;
     font-family: 'califri';
     font-weight: bold;
     border: none;
 }
+.contenedor2 .enviar{
+    background-color: rgb(97, 95, 95);
+    position: absolute;
+    border-radius: 5rem;
+    border-style: none;
+    font-weight: bold;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 5rem;
+    right: 0;
+    font-family: fuente-negrita;
+}
+ .enviar{
+    background-color: blue;
+    margin: 1rem 2rem 0px 0px;
+    padding: 50px;
+}
+
 .controls{
     width: 100%;
     padding: 10px;
@@ -146,14 +175,4 @@ input:invalid{
 
 input:focus{
     outline: none;
-}
-.enviar{
-    background-color: black;
-    position: absolute;
-    right: 0;
-    color: white;
-    border-radius: 1rem;
-    margin-right: 1rem;
-    padding: 0.5rem 2rem;
-    cursor: pointer;
 }
